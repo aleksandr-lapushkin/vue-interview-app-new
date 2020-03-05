@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderList has 1 row 1`] = `
+<div>
+  <div class="row">
+    <div class="columns twelve"><a><button class="button-primary">New</button></a> <button>Refresh</button></div>
+  </div>
+  <div class="row">
+    <div class="columns twelve">
+      <table class="u-full-width">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <orderrow-stub order="[object Object]"></orderrow-stub>
+        </tbody>
+      </table>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`OrderList is loading 1`] = `
+<div>
+  <div class="row">
+    <div class="columns twelve"><a><button class="button-primary">New</button></a> <button>Refresh</button></div>
+  </div>
+  <div class="row">
+    <div class="columns twelve">
+      <!---->
+      <div class="columns twelve">
+        <loadingspinner-stub></loadingspinner-stub>
+        <h6>Loading</h6>
+      </div>
+    </div>
+  </div>
+</div>
+`;

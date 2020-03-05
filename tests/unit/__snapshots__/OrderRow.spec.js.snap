@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OrderRow has correct values 1`] = `
+<tr>
+  <td class="order-id">123</td>
+  <td class="order-title">hello world</td>
+  <td class="order-status">PROCESSING</td>
+</tr>
+`;
